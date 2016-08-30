@@ -12,6 +12,9 @@ footer {
   margin: 0;
   width: 100%;
 }
+#mobile-menu {
+  z-index: 10000;
+}
 #mission {
   font-size: 2em;
   padding-top: 3%;
