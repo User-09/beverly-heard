@@ -1,0 +1,229 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+  text-align: center;
+  background-color: #524f6b;
+  padding: 15px 25px;
+  margin: 0;
+  width: 100%;
+}
+#mission {
+  font-size: 2em;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 300;
+  background: #8394AD; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8394AD , #86839C); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8394AD , #86839C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#mission img {
+  width: 10%;
+}
+#products {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+}
+#products-title {
+  background-color: #ededed;
+  border-bottom: 1px solid #ccc;
+  padding: 25px;
+  font-size: 2em;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 30px;
+}
+#wrapper {
+  margin-top: 60px;
+}
+#main-info {
+  background-color: #F7F5DA;
+  padding: 50px;
+  color: #3d3d3d;
+  font-size: 1.25em;
+}
+#client-img  {
+   float: right;
+   padding-right: 50px;
+   margin-top: 25px;
+   border-radius: 20px;
+}
+#client-img  img {
+   border-radius: 20px;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.dropdown {
+  display: none;
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  background:  rgba(0,0,0,0.85);
+  height: 100%;
+  width: 100%;
+}
+.dropdown-content {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5%;
+  background-color: #f9f9f9;
+  height: 500px;
+  width: 500px;
+  color: #121212;
+}
+.dropdown-content #close-ad {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#about {
+  background-color: #233237;
+  height: 100%;
+  padding: 50px;
+}
+#contact {
+  padding: 50px;
+  background: #8394AD; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8394AD , #86839C); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8394AD , #86839C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#text-content {
+  color: #dddddd;
+  display:inline-block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.navbar-default {
+  background-color: #524f6b;
+  padding: 10px 25px;
+  border: 0;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #121212;
+    width: inherit;
+    height: inherit;
+}
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.thumbnail img {
+  max-height: 200px;
+  border-radius: 15px;
+}
+.thumbnail {
+  border: 0;
+}
+.thumbnail .caption {
+  text-align: center;
+  border-radius: 0%;
+  padding-top: 0%;
+}
+.btn-default {
+  margin-top: 15px;
+}
+.btn-buy {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: RGB(255, 105, 180);
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid RGB(255, 105, 135);
+}
+.btn-buy:hover {
+  background-color: RGB(255, 105, 135);
+  color: #ffffff;
+}
+.shopping-cart {
+  margin-top: 9px;
+  padding: 5px 10px;
+  border-left: 1px solid #ccc;
+}
+.simpleCart_checkout {
+  background: #58B773;
+  border: 0;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+.simpleCart_empty {
+  background: #CC7A76;
+  border: 0;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+.simpleCart_checkout:hover {
+  background: #4c9b62;
+}
+.simpleCart_empty:hover {
+  background: #af6966;
+}
+.item_Quantity {
+  margin: 15px;
+}
+.navbar-nav {
+  font-size: 1em;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #f9f9f9;
+}
+#text-content {
+  display: none;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: .8em;
+  background-color: rgba(0,0,0,0.4);
+}
+.inmemory {
+  font-weight: bold;
+  font-style: italic;
+}
+@media only screen and (max-width: 480px) {
+  #mission {
+    font-size: 1.25em;
+  }
+  #mission img {
+    width: 25%;
+    text-align: center;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 1em;
+  }
+  #client-img {
+    text-align: center;
+    float: none;
+    padding-right: 0;
+    margin-top: 25px;
+}
+}
